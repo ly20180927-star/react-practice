@@ -10,6 +10,7 @@ import PropsDemo from './props/ParentDemo';
 import Calcarator  from './states/calcarator';
 import KeyDemo  from './key/KeyDemo';
 import EventDemo  from './event/EventDemo';
+import EffectDemo from './effect/EffectDemo';
 
 
 
@@ -56,6 +57,9 @@ export function Home() {
 
       <h1> ======================event======================= </h1>
       <EventDemo />
+
+      <h1> ======================effect======================= </h1>
+      <EffectDemo />
 
     </div>
   );
