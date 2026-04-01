@@ -11,6 +11,8 @@ import Calcarator  from './states/calcarator';
 import KeyDemo  from './key/KeyDemo';
 import EventDemo  from './event/EventDemo';
 import EffectDemo from './effect/EffectDemo';
+import RefDemo from './ref/RefDemo';
+import Grand from './context/Grand';
 
 
 
@@ -60,6 +62,12 @@ export function Home() {
 
       <h1> ======================effect======================= </h1>
       <EffectDemo />
+
+      <h1> ======================ref======================= </h1>
+      <RefDemo />
+
+      <h1> ======================context======================= </h1>
+      <Grand />
 
     </div>
   );

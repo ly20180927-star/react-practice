@@ -42,6 +42,9 @@ useEffect(() => {
 }, [a, b])
 ```
 
+### useEffect(() => { ... })  
+**没有 [] 每一次组件 render 后都会执行**
+
 ### cleanup 有return () => { ... }
 cleanup = 释放副作用资源（防泄漏、防重复），比如清理定时器  
 什么时候执行cleanup  
